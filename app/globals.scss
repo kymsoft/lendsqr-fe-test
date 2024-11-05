@@ -64,6 +64,10 @@ a {
   border: none;
   box-shadow: none;
   font-family: avenirNext;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
 .btn-search {
@@ -1042,6 +1046,7 @@ a {
   height: 40px;
   background-color: transparent;
   font-family: workSans;
+  cursor: pointer;
 }
 
 .btn-filter {
@@ -1052,6 +1057,7 @@ a {
   height: 40px;
   color: $base-color;
   font-family: workSans;
+  cursor: pointer;
 }
 
 @media (max-width: 1400px) {
