@@ -5,17 +5,22 @@ import { Button } from "@mui/material";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { HiArrowLongLeft } from "react-icons/hi2";
-
-const UserDetails = ({ params }: { params: { userId: string } }) => {
+import { GetStaticPropsContext, InferGetStaticPropsType } from 'next';
+const UserDetails = async({
+  params,
+}: {
+  params: Promise<{ userId: string }>
+}) => {
   const router = useRouter();
 
   const backToUsers = () => {
     router.back();
   };
+  const userId = (await params).userId
 
   const blacklistUser = () => {
     //update status to blacklist
-    console.log(params.userId)
+    console.log(userId)
   };
   const activateUser = () => {
     //update status to active
@@ -53,7 +58,7 @@ const UserDetails = ({ params }: { params: { userId: string } }) => {
       </div>
 
       <TabsPanel
-        id = {params.userId}
+        id = {userId}
       />
     </div>
   );
