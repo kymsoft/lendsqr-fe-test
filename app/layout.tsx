@@ -2,12 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.scss";
 
-// const roboto = localFont({
-//   src: "../assets/fonts/Roboto.tff",
-//   variable: "--font-roboto",
-//   weight: "100 900",
-// });
-
 const workSans = localFont({
   src: "../assets/fonts/WorkSans.ttf",
   variable: "--font-work-sans",
