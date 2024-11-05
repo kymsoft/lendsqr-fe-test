@@ -16,9 +16,9 @@ const SearchForm: FC<SearchFormProps> = ({ onSearch }) => {
           className="search-input"
           type="text"
         />
-        <Button className="btn-search" type="submit">
+        <button className="btn-search" type="submit">
           <IoSearch className="search-icon"/>
-        </Button>
+        </button>
       </form>
   );
 };

@@ -310,7 +310,7 @@ a {
 
 .sidebar {
   background-color: $base-color;
-  width: 360px;
+  width: 283px;
   box-shadow: 5px 0 10px $shadow-color;
   max-height: 2000px;
   overflow: hidden;
@@ -1040,6 +1040,8 @@ a {
   border-radius: 8px;
   width: 98px;
   height: 40px;
+  background-color: transparent;
+  font-family: workSans;
 }
 
 .btn-filter {
@@ -1048,7 +1050,8 @@ a {
   border-radius: 8px;
   width: 98px;
   height: 40px;
-  box-shadow: none;
+  color: $base-color;
+  font-family: workSans;
 }
 
 @media (max-width: 1400px) {

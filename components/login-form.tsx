@@ -106,8 +106,7 @@ export default function LoginForm() {
             </Link>
           </div>
           <FormError message={error || urlError} />
-          <Button
-            variant="contained"
+          <button
             className="btn"
             type="submit"
             disabled={isLoading}
@@ -117,7 +116,7 @@ export default function LoginForm() {
             ) : (
               "LOG IN"
             )}
-          </Button>
+          </button>
         </form>
         </Form>
       </FormWrapper>

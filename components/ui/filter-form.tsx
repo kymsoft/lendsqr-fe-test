@@ -85,20 +85,18 @@ const FilterForm = ({ uniqueOrganizations, onApplyFilter }: FilterFormProps) => 
 
 
       <div className="filter-action-btn">
-      <Button
-        variant="outlined"
+      <button
         onClick={handleReset}
         className="btn-reset"
       >
         Reset
-      </Button>
-      <Button
-        variant="contained"
+      </button>
+      <button
         onClick={handleApplyFilter}
         className="btn-filter"
       >
         Filter
-      </Button>
+      </button>
       </div>
     </div>
   );

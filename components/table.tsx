@@ -67,7 +67,7 @@ const Table = () => {
       .then((data) => setTableData(data))
       .catch((error) => console.error("Fetch error:", error));
 
-    setIsShowForm(true);
+    setIsShowForm(false);
 
     document.addEventListener("mousedown", handleClickOutside);
 
