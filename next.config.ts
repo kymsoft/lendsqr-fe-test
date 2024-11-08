@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   env: {
-   mockUrl: "https://run.mocky.io/v3/e1a7871d-943d-4418-bab1-18e0b704efb7",
+   mockUrl: "https://run.mocky.io/v3/df6580d8-1132-4ab6-b20b-ba51451c86c9",
   },
 };
 
